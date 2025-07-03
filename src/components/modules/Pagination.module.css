@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+p,
+button {
+  border: #094b7d 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 3px;
+  height: 15px;
+}
+
+p {
+  width: 15px;
+}
+
+button {
+  width: 100px;
+  background-color: #094b7d;
+  color: white;
+}
+
+button:disabled,
+button[disabled] {
+  filter: brightness(0.5);
+}
+
+p:hover {
+  cursor: pointer;
+}
