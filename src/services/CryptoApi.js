@@ -9,4 +9,8 @@ function searchCoin(query) {
   return `${BASE_URL}search?x_cg_demo_api_key=${API_KEY}&query=${query}`;
 }
 
-export { getCoinList, searchCoin };
+function marketChart(id) {
+  return `${BASE_URL}coins/${id}/market_chart?x_cg_demo_api_key=${API_KEY}&vs_currency=usd&days=7`;
+}
+
+export { getCoinList, searchCoin, marketChart };

@@ -5,8 +5,7 @@
   justify-content: center;
 }
 
-p,
-button {
+.page {
   border: #094b7d 1px solid;
   display: flex;
   align-items: center;
@@ -17,11 +16,11 @@ button {
   height: 15px;
 }
 
-p {
+.pageP {
   width: 15px;
 }
 
-button {
+.pageBTN {
   width: 100px;
   background-color: #094b7d;
   color: white;

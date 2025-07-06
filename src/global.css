@@ -22,13 +22,3 @@ a {
   text-decoration: inherit;
   color: inherit;
 }
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color:  #094b7d;
-  border-radius: 10px;
-  height: 60px;
-  padding: 0px 20px;
-}
